@@ -5,6 +5,7 @@ To change this template file, choose Tools | Templates
 and open the template in the editor.
 -->
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="description"
@@ -14,21 +15,38 @@ and open the template in the editor.
   <meta name="keywords" content="BTS,The bangtan boys,v,RM,JIN,SUGA,J-hope,JIMIN,jungkook,army,bts journey">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- <meta http-equiv="refresh" content="5" > -->
-    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+  <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
     integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <!-- Font Awesome 4 -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
 
 <body>
-  <!--container for whole page-->
+  <!-- NAVBAR -->
 
-
+  <nav class="navbar navbar-dark bg-dark navbar-expand-sm">
+    <div class="container">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand mr-auto" href="#"><img src="assets/img/logo2a.jpg" height="40" width="50" alt="BTS"></a>
+      <div class="collapse navbar-collapse" id="Navbar">
+        <ul class="navbar-nav ml-auto justify-content-end">
+          <li class="nav-item active"><a class="nav-link" href="#"><span class="fa fa-home"></span> Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Achievements</a></li>
+          <li class="nav-item"><a class="nav-link" href="#mem">Members</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
   <div class="container">
     <!--Navbar section-->
-    <div id="header">
+    <!-- <div id="header">
       <a href="#" class="logo">
         <img src="assets/img/logo2a.jpg" alt="BTS">
       </a>
@@ -40,7 +58,7 @@ and open the template in the editor.
           <li>Achievements</li>
         </ul>
       </nav>
-    </div>
+    </div> -->
     <!--end of navbar section-->
     <div id="background-image">
       <center>
@@ -51,7 +69,7 @@ and open the template in the editor.
       </center>
     </div>
     <div id="intro">
-      <h2><i>ABOUT THE BAND</i></h2>
+      <h2 class="text-center display-4"><i>ABOUT THE BAND</i></h2>
       <p><b>BTS</b> , also known as the <b>Bangtan Boys</b>, is a seven-member South Korean boy band who began formation
         in 2010 and debuted in 2013. The septet co-writes and produces much of their output. Originally a hip hop group,
         their musical style has evolved to include a wide range of genres</p>
@@ -78,20 +96,20 @@ and open the template in the editor.
         </h5>
     </div>
     <div id="mem">
-      <h2>BTS MEMBERS</h2>
-      <p>The K-Pop boy band <b>BTS</b>has seven members.Jin-who is a vocalist.Suga-who is a rapper.J-Hope-also a rapper.
+      <h2 class="text-center">BTS MEMBERS</h2>
+      <p>The K-Pop boy band <b>BTS</b> has seven members.Jin-who is a vocalist.Suga-who is a rapper.J-Hope-also a rapper.
         RM-The leader and a rapper.Jimin-a vocalist.V-another vocalist.Jungkook-also a vocalist.
       </p>
       <p>Besides thier own proficiencies, all the members also contribute in writing lyrics of thier songs,directing
         their own MVs,any many other.</p>
       <br>
-      <b style="font-size:24px">TO KNOW MORE ABOUT EACH OF THE MEMBERS,CLICK ON THEIR PICTURES BELOW</b>
+      <b style="font-size:24px"class="text-center">TO KNOW MORE ABOUT EACH OF THE MEMBERS,CLICK ON THEIR PICTURES BELOW</b>
     </div>
-
+    <!-- CONTAINER -->
     <div class="contain">
       <div class="thumbnail">
         <div class="imgBox">
-          <img src="assets/img/RM.jpg" alt="RM">
+          <img src="assets/img/RM.jpg" class="img-fluid" alt="RM">
           <div class="preview">
             <a href="views/rm.html">
               <div class="data">
@@ -199,108 +217,76 @@ and open the template in the editor.
       <div class="thumbnail" style="background-color: #fff ; border: 0">
       </div>
     </div>
-    <hr style="height: 1px;border: none;color: #333;background-color: #333;" />
-    <div class="foot" style="padding: 10px;margin: 10px ">
-      <!-- Footer -->
-      <footer class="page-footer pt-4">
-
-        <!-- Footer Links -->
-        <div class="container-fluid text-center text-md-left">
-
-          <!-- Grid row -->
-          <div class="row">
-
-            <!-- Grid column -->
-            <div class="col-md-6 mt-md-0 mt-3">
-
-              <!-- Content -->
-              <h5 class="text-uppercase">THE BANGTAN BOYS</h5>
-              <p> "Your presence can give happiness. I hope you remember that."
-                <b>-JIN</b></p>
-
-
-              <P><b>FOR ALL ARMIES-HOPE YOU LIKED IT.</b></p>
-
-            </div>
-            <!-- Grid column -->
-
-            <hr class="clearfix w-100 d-md-none pb-3">
-
-            <!-- Grid column -->
-            <div class="col-md-3 mb-md-0 mb-3">
-              <div class="vl" style="left:15%"></div>
-              <!-- Links -->
-              <h5 class="text-uppercase">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Know More About</h5>
-
-              <ul class="list-unstyled">
-                <li>
-                  <a href="views/rm.html" style="color:black;text-decoration: none;color: #004085;">RM</a>
-                </li>
-                <li>
-                  <a href="views/jin.html" style="color:black;text-decoration: none;color: #004085;">JIN</a>
-                </li>
-                <li>
-                  <a href="views/suga.html" style="color:black;text-decoration: none;color: #004085;">SUGA</a>
-                </li>
-                <li>
-                  <a href="views/jhope.html" style="color:black;text-decoration: none;color: #004085;">J-HOPE</a>
-                </li>
-                <li>
-                  <a href="views/jimin.html" style="color:black;text-decoration: none;color: #004085;">JIMIN</a>
-                </li>
-                <li>
-                  <a href="views/v.html" style="color:black;text-decoration: none;color: #004085;">V</a>
-                </li>
-                <li>
-                  <a href="views/kookie.html" style="color:black;text-decoration: none;color: #004085;">JUNGKOOK</a>
-                </li>
-              </ul>
-            </div>
-
-            <!-- Grid column -->
-
-            <!-- Grid column -->
-            <div class="col-md mb-md-2 mb-2">
-
-              <!-- Links -->
-              <div class="vl"></div>
-              <h5 class="text-uppercase" style="float: right;padding-right: 30px;">MORE</h5>
-              <br /><br />
-
-              <ul class="list-unstyled">
-                <li>
-                  <a href="#" style="color:black;text-decoration: none;color: #004085;">Home</a>
-                </li>
-                <li>
-                  <a href="#header" style="color:black;text-decoration: none;color: #004085;">Go To Top</a>
-                </li>
-                <li>
-                  <a href="#mem" style="color:black;text-decoration: none;color: #004085;">Members</a>
-                </li>
-
-
-              </ul>
-
-            </div>
-            <!-- Grid column -->
-
+    <!-- <hr style="height: 1px;border: none;color: #333;background-color: #333;" /> -->
+  </div>
+  <!-- FOOTER -->
+  <footer style="background-color: #c4b6b6;color: gray ;" class="mb-0 p-3">
+    <div class="row mt-3">
+      <div class="col-md-6 d-flex align-items-left flex-column px-3">
+        <h5 class="text-uppercase">THE BANGTAN BOYS</h5>
+        <p><cite>"Your presence can give happiness. I hope you remember that."</cite>
+          <strong>-JIN</strong></p>
+        <p><strong>FOR ALL ARMIES-HOPE YOU LIKED IT.</strong></p>
+      </div>
+      <div class="col-md-4">
+        <h5 style="text-transform: uppercase;"><strong>Check them out</strong></h5>
+        <div class="row">
+          <div class=" col-6 col-md-6">
+            <ul class="list-unstyled d-inline">
+              <li>
+                <a href="views/rm.html" style="color:black;text-decoration: none;color: #004085;">RM</a>
+              </li>
+              <li>
+                <a href="views/jin.html" style="color:black;text-decoration: none;color: #004085;">JIN</a>
+              </li>
+              <li>
+                <a href="views/suga.html" style="color:black;text-decoration: none;color: #004085;">SUGA</a>
+              </li>
+              <li>
+                <a href="views/jhope.html" style="color:black;text-decoration: none;color: #004085;">J-HOPE</a>
+              </li>
+            </ul>
           </div>
-          <!-- Grid row -->
-
-        </div>
-        <!-- Footer Links -->
-        <div class="foot" style="margin:30px;background-color: #CEB1B1;padding: 0;">
-          <!-- Copyright -->
-          <div class="footer-copyright text-center py-3">© 2020 Copyright:
-            <a href="https://btsworld.com/"> BTSWorld.com</a>
+          <div class="col-6 col-md-6">
+            <ul class="list-unstyled d-inline">
+              <li>
+                <a href="views/jimin.html" style="color:black;text-decoration: none;color: #004085;">JIMIN</a>
+              </li>
+              <li>
+                <a href="views/v.html" style="color:black;text-decoration: none;color: #004085;">V</a>
+              </li>
+              <li>
+                <a href="views/kookie.html" style="color:black;text-decoration: none;color: #004085;">JUNGKOOK</a>
+              </li>
+            </ul>
           </div>
-          <!-- Copyright -->
         </div>
-      </footer>
-      <!-- Footer -->
+      </div>
+      <div class="col-md-2 d-flex align-items-left flex-column">
+        <h5><strong>MORE</strong></h5>
+        <ul class="list-unstyled">
+          <li>
+            <a href="#" style="color:black;text-decoration: none;color: #004085;">Home</a>
+          </li>
+          <li>
+            <a href="#header" style="color:black;text-decoration: none;color: #004085;">Go To Top</a>
+          </li>
+          <li>
+            <a href="#mem" style="color:black;text-decoration: none;color: #004085;">Members</a>
+          </li>
+
+
+        </ul>
+      </div>
 
     </div>
-  </div>
+    <div class="text-center m-3">
+      Copyright&copy;2020&nbsp;All rights Reserved.
+    </div>
+    <div class="text-center m-3" style="color:black !important">
+      <h6>Made with <i class="fa fa-heart hearticon" style="color: red;"></i> by <br> <span>Sandytrichi</span></h6>
+    </div>
+  </footer>
 </body>
 
 </html>

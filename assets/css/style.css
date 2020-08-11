@@ -9,12 +9,13 @@ nav{
     padding:0;
 }
 li{
-    display:block;
+    /* display:block; */
     color: #666;
     padding:14px 16px;
     text-decoration:none;
-    float:right;
+    /* float:left; */
 }
+
 .logo{
     float:left;
     height:50px;
@@ -27,6 +28,9 @@ li{
 
 #background-image{
     background-image: url("../img/Optimized-BTS.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     height: 500px;
     padding-top: 50px;
     margin: 20px;
@@ -45,37 +49,44 @@ body{
     margin: 0;
     padding: 0;
     background: #F2EAE9;
-    font-family: sans-serif;
 }
 .contain{
     margin:auto;
     width: 100%;
-    min-height:420px;
+    height: auto;
     display:flex;
     flex-direction: row;
-    flex-wrap:nowrap;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
    }
    
    .contain .thumbnail{
     position: relative;
-    width: 300px;
+    width: 250px;
     height: 400px;
-    background: #DACECE   ;
+    background: #DACECE;
     margin: 5px;
     box-sizing: border-box;
     display: inline-block;
 }
- 
+ /* ul li a{
+     text-decoration: none;
+     text-decoration-color: #F2EAE9;
+     color: #F2EAE9;
+ } */
 .contain .thumbnail .imgBox{
     position: relative;
 }
 .contain .thumbnail .imgBox img{
     margin-top: 12px;
     max-width: 100%;
+    height: auto;
     transition: transform 500ms;
 }
 .contain .thumbnail:hover .imgBox img{
     transform: scale(1.1);
+    overflow: none;
 }
 .contain .thumbnail .imgBox h4{
     margin-top: 20px;
@@ -83,7 +94,7 @@ body{
 }
 .thumbnail {
     display: inline-block;
-    height: auto;
+    /* height: auto; */
     padding: 2px;
     margin-bottom: 20px;
     background-color: #fff;
@@ -262,13 +273,9 @@ th{
          h2{
             text-align: center;
         }
-         .contain{
-            min-height: 335px;
-        }
+         
        
-         .contain .thumbnail{
-            height: 250px;
-        }
+        
     }
    
     
