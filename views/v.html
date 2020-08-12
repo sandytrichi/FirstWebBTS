@@ -15,7 +15,9 @@ and open the template in the editor.
   integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-</head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+ </head>
 
 <body>
   <!--NAVBAR-->
@@ -27,9 +29,9 @@ and open the template in the editor.
       <a class="navbar-brand mr-auto" href="#"><img src="../assets/img/logo2a.jpg" height="40" width="50" alt="BTS"></a>
       <div class="collapse navbar-collapse" id="Navbar">
         <ul class="navbar-nav ml-auto justify-content-end">
-          <li class="nav-item active"><a class="nav-link" href="#"><span class="fa fa-home"></span> Home</a></li>
+          <li class="nav-item active"><a class="nav-link" href="../index.html"><span class="fa fa-home"></span> Home</a></li>
           <!--<li class="nav-item"><a class="nav-link" href="#">Achievements</a></li>-->
-          <li class="nav-item"><a class="nav-link" href="#mem">Members</a></li>
+          <li class="nav-item"><a class="nav-link" href="#oth">Members</a></li>
         </ul>
       </div>
     </div>
@@ -48,7 +50,7 @@ and open the template in the editor.
       </nav>
     </div>-->
     <br>
-    <h1>V-Kim Tae-hyung</h1>
+    <h1 id="head">V-Kim Tae-hyung</h1>
     <div>
       <div class="idolintro">
         <header style="background: #DACECE ">
@@ -57,17 +59,12 @@ and open the template in the editor.
         <p><b>Kim Tae-hyung</b> (Born December 30, 1995), also known by his stage name <i>V</i>, is a South Korean
           singer, songwriter, record producer, and actor. He is a vocalist of the South Korean boy group BTS.</p>
       </div>
-      <div class="idoldata">
-        <div class="imagebox">
-          <div class="idolimage">
-            <img src="../assets/img/V12.png" alt="V">
-          </div>
-        </div>
-        <div class="idoltable">
-          <table>
-
+     
+      <div class="table-responsive">
+          <table class="table">
             <tbody>
               <tr>
+                <td rowspan="6"><img src="../assets/img/V12.png" alt="V"></td>
                 <td><b>Name:</b></td>
                 <td>Kim Tae-hyung</td>
               </tr>
@@ -95,8 +92,7 @@ and open the template in the editor.
             </tbody>
           </table>
         </div>
-      </div>
-    </div>
+     
     <div>
       <div id="begin">
         <header style="background: #DACECE ">
@@ -137,7 +133,7 @@ and open the template in the editor.
 
         <h3>Television</h3>
       </div>
-      <table>
+      <table class="table">
         <tbody>
           <tr>
 
@@ -343,10 +339,10 @@ and open the template in the editor.
             <a href="../index.html" style="color:black;text-decoration: none;color: #004085;">Home</a>
           </li>
           <li>
-            <a href="#header" style="color:black;text-decoration: none;color: #004085;">Go To Top</a>
+            <a href="#head" style="color:black;text-decoration: none;color: #004085;">Go To Top</a>
           </li>
           <li>
-            <a href="#mem" style="color:black;text-decoration: none;color: #004085;">Members</a>
+            <a href="#oth" style="color:black;text-decoration: none;color: #004085;">Members</a>
           </li>
         </ul>
       </div>
