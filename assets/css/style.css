@@ -169,7 +169,7 @@ button{
     margin-top: 20px;
 
 }
-table{
+/*table{
     border: 1px solid;
     border-collapse: collapse;
     background-color: #F5EDEC;
@@ -221,7 +221,7 @@ th{
     .idoldata .imagebox .idolimage img{
        width: 300px;
        height: 370px;
-    }
+    }*/
     
     .ref{
         width: 95%;
@@ -264,7 +264,7 @@ th{
     }
      
      @media(max-width:481px){
-         .idoltable{
+         table{
             width: 100%;
         }
         #background-image{
@@ -273,9 +273,6 @@ th{
          h2{
             text-align: center;
         }
-         
-       
-        
-    }
+      }
    
     
